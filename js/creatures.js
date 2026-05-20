@@ -8,13 +8,13 @@ function showHome()
         if creature lives on land, background color green
         if creature lives in water, blue
         if creature lives in air, yellow
-
+    */
         document.querySelectorAll("div.creature").forEach(el => {
         el.style.backgroundColor = "yellow";
 });
 
         
-        */
+        
         alert("showHome()");
     
 }//end showHome()
