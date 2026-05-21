@@ -24,6 +24,8 @@ function showHome()
            case "air":
                el.style.backgroundColor = "yellow";
                break;
+           default:
+              alert("You should not seen this")
        }
 });
 
