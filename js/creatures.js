@@ -11,7 +11,8 @@ function showHome()
     */
         document.querySelectorAll("div.creature").forEach(el => {
       //  el.style.backgroundColor = "yellow";
-        let mySeason = el.dataset.season;
+        let myHome= el.dataset.Home;
+        alert("myHome");
 });
 
         
