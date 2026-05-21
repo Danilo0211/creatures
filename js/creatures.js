@@ -12,7 +12,19 @@ function showHome()
         document.querySelectorAll("div.creature").forEach(el => {
       //  el.style.backgroundColor = "yellow";
         let myHome= el.dataset.home;
-        alert(myHome);
+       // alert(myHome);
+       switch(myHome)
+       {
+           case "land":
+               el.style.backgroundColor = "green";
+               break;
+           case "water":
+               el.style.backgroundColor = "blue";
+               break;
+           case "air":
+               el.style.backgroundColor = "yellow";
+               break;
+       }
 });
 
         
