@@ -10,7 +10,8 @@ function showHome()
         if creature lives in air, yellow
     */
         document.querySelectorAll("div.creature").forEach(el => {
-        el.style.backgroundColor = "yellow";
+      //  el.style.backgroundColor = "yellow";
+        let mySeason = el.dataset.season;
 });
 
         
