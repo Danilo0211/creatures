@@ -53,8 +53,10 @@ function showType()
         case "insect":
             el.style.border = "1px dashed orange";
             break;
-      
-}//end showType()
+       }}
+    )}  
+
+//end showType()
 
 function clearAll()
 {
