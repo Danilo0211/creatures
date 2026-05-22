@@ -43,20 +43,16 @@ function showType()
     alert("showType()");    
         document.querySelectorAll("div.creature").forEach(el => {
       //  el.style.backgroundColor = "yellow";
-        let myHome= el.dataset.home;
-       // alert(myHome);
-       switch(myHome)
+        let myType= el.dataset.creatureType;
+    
+       switch(myType)
        {
-        case "land":
-            el.style.backgroundColor = "green";
+        case "animal":
+            el.style.border = "1px solid red";
+        break;
+        case "insect":
+            el.style.border = "1px dashed orange";
             break;
-        case "water":
-            el.style.backgroundColor = "blue";
-            break;
-        case "air":
-            el.style.backgroundColor = "yellow";
-            break;
-        
       
 }//end showType()
 
